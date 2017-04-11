@@ -186,6 +186,12 @@ namespace game01
             if(button1.Visible==false&&button2.Visible==false&& button3.Visible == false && button4.Visible == false&& button5.Visible == false && button6.Visible == false)
             {
                 MessageBox.Show("你赢了！");
+                button1.Visible = true;
+                button2.Visible = true;
+                button3.Visible = true;
+                button4.Visible = true;
+                button5.Visible = true;
+                button6.Visible = true;
             }
         }
     }
