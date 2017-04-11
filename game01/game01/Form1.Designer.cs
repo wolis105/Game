@@ -42,7 +42,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
-            this.button1.Text = "王雅林（点击这个按钮第1，2，5，6个按钮会被隐藏）";
+            this.button1.Text = "按钮一";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -52,7 +52,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 1;
-            this.button2.Text = "李林（点击点击这个按钮第1，3，5个按钮隐藏的显示显示的隐藏）";
+            this.button2.Text = "按钮二";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -62,7 +62,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 2;
-            this.button3.Text = "童旭（点击这个按钮第2，4，6个按钮隐藏的显示显示的隐藏）";
+            this.button3.Text = "按钮三";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -72,34 +72,34 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 3;
-            this.button4.Text = "李哲昇（第2，3，6个按钮隐藏的显示现实的隐藏）";
+            this.button4.Text = "按钮四";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(21, 187);
+            this.button5.Location = new System.Drawing.Point(21, 179);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(438, 23);
+            this.button5.Size = new System.Drawing.Size(75, 23);
             this.button5.TabIndex = 4;
-            this.button5.Text = "往前康（点击这个按钮第1，2，3，4个按钮隐藏的显示显示的隐藏）";
+            this.button5.Text = "按钮五";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(286, 144);
+            this.button6.Location = new System.Drawing.Point(156, 179);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 23);
             this.button6.TabIndex = 5;
-            this.button6.Text = "不要管";
+            this.button6.Text = "按钮六";
             this.button6.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(259, 261);
+            this.ClientSize = new System.Drawing.Size(263, 244);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
