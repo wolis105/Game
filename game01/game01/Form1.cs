@@ -16,5 +16,33 @@ namespace game01
         {
             InitializeComponent();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (button2.Visible == false)
+            {
+                button2.Visible = true;
+            }
+            else
+            {
+                button2.Visible = false;
+            }
+            if (button3.Visible == false)
+            {
+                button3.Visible = true;
+            }
+            else
+            {
+                button3.Visible = false;
+            }
+            if (button6.Visible == false)
+            {
+                button6.Visible = true;
+            }
+            else
+            {
+                button6.Visible = false;
+            }
+        }
     }
 }
