@@ -160,5 +160,33 @@ namespace game01
             }
 
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            if (button1.Visible == false)
+            {
+                button1.Visible = true;
+            }
+            else
+            {
+                button1.Visible = false;
+            }
+            if (button2.Visible == false)
+            {
+                button2.Visible = true;
+            }
+            else
+            {
+                button2.Visible = false;
+            }
+        }
+
+        private void Form1_MouseDown(object sender, MouseEventArgs e)
+        {
+            if(button1.Visible==false&&button2.Visible==false&& button3.Visible == false && button4.Visible == false&& button5.Visible == false && button6.Visible == false)
+            {
+                MessageBox.Show("你赢了！");
+            }
+        }
     }
 }
