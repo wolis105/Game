@@ -44,6 +44,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "王雅林（点击这个按钮第1，2，5，6个按钮会被隐藏）";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
