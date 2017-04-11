@@ -80,14 +80,15 @@
             // 
             this.button5.Location = new System.Drawing.Point(21, 187);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.Size = new System.Drawing.Size(438, 23);
             this.button5.TabIndex = 4;
             this.button5.Text = "往前康（点击这个按钮第1，2，3，4个按钮隐藏的显示显示的隐藏）";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(156, 187);
+            this.button6.Location = new System.Drawing.Point(286, 144);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 23);
             this.button6.TabIndex = 5;
