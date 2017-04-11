@@ -53,6 +53,7 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "李林（点击点击这个按钮第1，3，5个按钮隐藏的显示显示的隐藏）";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Visible = false;
             // 
             // button3
             // 
@@ -62,6 +63,7 @@
             this.button3.TabIndex = 2;
             this.button3.Text = "童旭（点击这个按钮第2，4，6个按钮隐藏的显示显示的隐藏）";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
